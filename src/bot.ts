@@ -3,12 +3,11 @@
 import TelegramBot from 'node-telegram-bot-api';
 import { BOT_TOKEN } from './config';
 
-<<<<<<< HEAD
+
 const bot = new TelegramBot(BOT_TOKEN, { polling: true });
-=======
-const TOKEN = '8068200087:AAHn6b77a6nFq9oOhxgSmz3YHI3ArKYypw4';
-const bot = new TelegramBot(TOKEN, { polling: true });
->>>>>>> 657ca7fa22edb7ae35d97bd516eda241fee3e0f4
+
+
+
 
 bot.onText(/\/start/, (msg) => {
     const chatId = msg.chat.id;
