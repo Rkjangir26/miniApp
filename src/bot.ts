@@ -2,7 +2,7 @@
 
 import TelegramBot from 'node-telegram-bot-api';
 
-const TOKEN = '8066245169:AAH0xU_ZY64Wzi1GxbwOnde7Yt6HZqSibpAE';
+const TOKEN = '8068200087:AAHn6b77a6nFq9oOhxgSmz3YHI3ArKYypw4';
 const bot = new TelegramBot(TOKEN, { polling: true });
 
 bot.onText(/\/start/, (msg) => {
